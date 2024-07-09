@@ -50,9 +50,9 @@ $P(k_i=k) = \frac{\mu^k}{k!} e^{-\mu}$ (Poissonian), $P(k_i=k) = ck^{-\alpha}$ (
 - **Average path length:** $\langle d \rangle = \frac{1}{|\mathcal{N}_{sp}|}\sum_{i \in \mathcal{N}_{sp}}(d_i)$, where $\mathcal{N}_{sp} = \{n_1m_1, n_1m_2, ...\}$ is the set of all the possible connected pairs of nodes in the graph.
 
 - **Assortativity (undirected graph):** $r = \frac{L^{-1} \sum\limits_{(m,n) \in\mathcal{N}} k_m k_n - \left[ L^{-1} \sum\limits_{(m,n) \in \mathcal{N}} \frac{1}{2} \left( k_m + k_n \right) \right]^2}
-          {L^{-1} \sum\limits_{(m,n) \in \mathcal{N}} \frac{1}{2} \left( k_m^2 + k_n^2 \right) - \left[ L^{-1} \sum\limits_{(m,n) \in \mathcal{N}} \frac{1}{2} \left( k_m + k_n \right) \right]^2}$, where $L$ is the number of links in the network.
+          {L^{-1} \sum\limits_{(m,n) \in \mathcal{N}} \frac{1}{2} \left( k_m^2 + k_n^2 \right) - \left[ L^{-1} \sum\limits_{(m,n) \in \mathcal{N}} \frac{1}{2} \left( k_m + k_n \right) \right]^2}$ , where $L$ is the number of links in the network.
 
-- **Assortativity (directed graph):** $r^\rightarrow = \frac{L^{-1} \sum\limits_{(m,n) \in\mathcal{N}} k^{out}_m k^{in}_n - \left[ L^{-1} \sum\limits_{(m,n) \in \mathcal{N}} \frac{1}{2} \left( k^{out}_m + k^{in}_n \right) \right]^2}{L^{-1} \sum\limits_{(m,n) \in \mathcal{N}} \frac{1}{2} \left( (k_m^{out})^2 + (k_n^{in})^2 \right) - \left[ L^{-1} \sum\limits_{(m,n) \in \mathcal{N}} \frac{1}{2} \left( k_m^{out} + k_n^{in} \right) \right]^2}$, where $L$ is the number of links in the network.
+- **Assortativity (directed graph):** $r^\rightarrow = \frac{L^{-1} \sum\limits_{(m,n) \in\mathcal{N}} k^{out}_m k^{in}_n - \left[ L^{-1} \sum\limits_{(m,n) \in \mathcal{N}} \frac{1}{2} \left( k^{out}_m + k^{in}_n \right) \right]^2}{L^{-1} \sum\limits_{(m,n) \in \mathcal{N}} \frac{1}{2} \left( (k_m^{out})^2 + (k_n^{in})^2 \right) - \left[ L^{-1} \sum\limits_{(m,n) \in \mathcal{N}} \frac{1}{2} \left( k_m^{out} + k_n^{in} \right) \right]^2}$ , where $L$ is the number of links in the network.
 
 - **Betweenness centrality:**  $B_C(i) = \sum_{n \neq i \neq m}\Bigl({\frac{\sigma_{nm}(i)}{\sigma_{nm}}\Bigl)}$, where $\sigma_{nm}(i)$ represents the number of shortest path between node $n$ and $m$ that pass through node $i$, and
 $\sigma_{nm}$ represents the number of shortest path between node $n$ and $m$.
