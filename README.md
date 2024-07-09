@@ -32,7 +32,7 @@ The four analyzed graphs are:
 
 - **Authors-Papers Graph:** Is a bipartite unoriented graph, where nodes $u \in \mathcal{U}$ are authors and nodes $v \in \mathcal{V}$ are papers. A link $l_{uv}$ represent that author $u$ has contributed to the publication of paper $v$.
 
-<center><img src="README_images/Networks.png" width="500" height="500"></center>
+<center><img src="Results/General/Networks.png" width="500" height="500"></center>
 
 **NOTE:** Analysis are not conducted just on 1990 year. Four graphs like these have been created for each year spanning form 1980 to 2009.
 
